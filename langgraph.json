@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "comedian_agent": "./comedian_agent.py:graph"
+  },
+  "env": ".env"
+}

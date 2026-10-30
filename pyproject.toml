@@ -1,0 +1,17 @@
+[project]
+name = "langgraph-studio-examples"
+version = "0.1.0"
+description = "Example LangGraph agents runnable with the Agent Server and LangSmith Studio"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-openai>=1.7.3",
+    "langgraph>=1.2.18",
+    "python-dotenv>=1.2.4",
+]
+
+[dependency-groups]
+dev = [
+    "langgraph-cli[inmem]>=0.4.40",
+]
